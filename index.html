@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>LOGIN PAGE</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(img.jpg);
+        }
+        
+        .box {
+            position: absolute;
+            left: 30%;
+            top: 30%;
+            background-color: #f5f5f5;
+            padding: 70px 40px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            border: 2px solid black;
+            border-bottom: none;
+            height: 40px;
+            font-size: 15px;
+        }
+        
+        input[type="submit"] {
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 40px;
+            font-size: 15px;
+            color: blueviolet;
+        }
+        
+        input[type="submit"]:hover {
+            cursor: pointer;
+            color: red;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blueviolet;
+            line-height: 40px;
+            padding: 30px;
+        }
+        
+        a:hover {
+            color: red;
+        }
+        
+        p {
+            color: #f49126;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            clip-path: circle(40%);
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="user.jpg" alt="icon">
+        <h2 style="text-align: center" color="black">Login</h2>
+        <p>Username</p>
+        <input type="text" name="username" placeholder="Enter username" required="">
+        <p>password</p>
+        <input type="password" name="password" placeholder="Enter password" required="">
+        <input type="submit" name="login"><br>
+        <a href="register.html">Create a new account!register..</a><br>
+        <a href="password.html" id="for">Forgot password</a>
+    </div>
+</body>
+
+</html>
