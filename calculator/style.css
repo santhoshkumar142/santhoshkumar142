@@ -1,0 +1,49 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: antiquewhite;
+                font-family: sans-serif;
+                font-size: 18px;
+                outline: none;
+            }
+            
+            .box {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 300px;
+            }
+            
+            .container {
+                background-color: azure;
+                padding: 18px;
+                border-radius: 30px;
+                box-shadow: inset 5px 5px 12px white, 5px 5px 12px black;
+                display: grid;
+                grid-template-columns: repeat(4, 70px);
+            }
+            
+            input {
+                grid-column: span 4;
+                height: 55px;
+                box-shadow: inset 5px 5px 12px white;
+                border-radius: 18px;
+                text-align: end;
+                font-size: 45px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            
+            button {
+                border-radius: 28px;
+                margin: 8px;
+                text-align: center;
+                height: 50px;
+                width: 50px;
+            }
+            
+            .equal {
+                width: 120px;
+            }
