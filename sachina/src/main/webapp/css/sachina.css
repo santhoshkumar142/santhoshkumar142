@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+.style-table{
+	    border-collapse: collapse;
+	    margin:auto;
+	    font-size:13px;
+	    font-family: sans-serif;
+	    min-width: 60%;
+	    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	    width:60%;
+	}
+	.button-table{
+	    border-collapse: collapse;
+	    margin:auto;
+	    font-size:13px;
+	    font-family: monospace;
+	    min-width: 60%;
+	    width:60%;
+	}
+	.style-table tbody tr {
+	    border-bottom: thin solid #dddddd;
+	}
+	
+	.style-table tbody tr:nth-of-type(even) {
+	    background-color: #f3f3f3;
+	}
+	
+	.style-table tr:last-of-type {
+	    border-bottom: 2px solid #009879;
+	}
+	td{
+	    padding:12px 15px;
+	}
+	.style-table tr th{
+		font-weight:bold;
+		font-size:30px;
+		background-color: #009879;
+		color:white;
+		padding:12px 15px;
+	}
+	div{
+		color:#009879;
+		font-size:30px;
+		background-color:#DBF9DB;
+		height:100px;
+		padding:5px 5px;
+		font-family:fantasy;
+	}
+	.label{
+		color:black;
+		font-size:20px;
+		font-family: monospace;
+		font-weight:bold;
+	}
+	.textbox {
+		 width: 60%;
+		 padding: 12px 20px;
+		 margin: 8px 0;
+		 box-sizing: border-box;
+		 height: 35px 
+}
+	.selectbox {
+		width: auto;
+		height: 35px 
+	}
+	
+	.button{
+	    height:40px;
+		width:100px;
+		font-size:18px;
+		border-radius:5px;
+        box-sizing: border-box;
+	}
+	.save{
+		background-color:#3369ff;
+		color:white;
+		}
+	.clear{
+		background-color:#FFFF00;
+		color:black;
+	}
+	.cancel{
+	    background-color:#CCCCCC;
+		color:black;
+		margin-left:5px;
+	}
+	
+	.checkbox{
+	      width:20px;
+		  height:20px;
+		  border: 5px solid #eee;
+		  border-radius: 50%;
+	}
+	.radio-button{
+		  width: 20px;
+		  height: 20px;
+	}
+	.mandatory{
+	color:red;
+	}
+	.message{
+    	width: 60%;
+    	margin-right: auto;
+		margin-left: auto;
+    	background-color: #F1C40F;
+    	color: #000000;
+    	font-family: monospace;
+    	font-size: 18px;
+    	padding: 10px;
+    }

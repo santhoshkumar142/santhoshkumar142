@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>My form</title>
+<link href="../css/sachina.css" rel="stylesheet" type="text/css"/>
+<style>
+</style>
+</head>
+<body>
+<form class="frmemployee" name="frmemployee">
+<div>
+<h2>SACHINA</h2>
+</div>
+<hr>
+<br/>
+	<table class="style-table">
+			<thead>
+			    <tr>
+			    <th colspan="3" align="center">Employee Form</th>
+			    </tr>
+			</thead>
+			<tbody>
+	           <tr>    
+	              <td width="30%" align="right"><label class="label">First Name&nbsp;<font class="mandatory">*</font></label></td> 
+	              <td width="10%"></td>   
+	              <td width="60%" align="left"><input type="text" placeholder="first name" name="firstName" id="firstName" class="textbox" maxlength="20" /></td> 
+	            </tr>   
+	            <tr> 
+	               <td align="right"><label  class="label">Last Name&nbsp;<font class="mandatory">*</font></label></td>
+	               <td></td>   
+	               <td align="left"><input type="text" placeholder="last name" name="lastName" id="lastName" class="textbox" maxlength="20" /></td> 
+	            </tr>  
+	            <tr>
+	              <td align="right"><label  class="label">Date of Birth&nbsp;<font class="mandatory">*</font></label></td>
+	              <td></td>   
+	              <td align="left">
+	              	<select class="selectbox" id="dobmonth" name="dobMonth">
+	              	    <option value="0">--select--</option>     
+			            <option value="1">January</option>    
+			            <option value="2">February</option>    
+			            <option value="3" >March</option>
+			            <option value="4">April</option>    
+			            <option value="5" >May</option>   
+			            <option value="6">June</option>    
+			            <option value="7" >July</option>   
+			            <option value="8">August</option>    
+			            <option value="9" >September</option>   
+			            <option value="10">October</option>    
+			            <option value="11" >November</option> 
+						<option value="12" >December</option>       
+		            </select>&nbsp;&nbsp;
+		            <select class="selectbox" id="dobdate" name="dobDate">
+		                <option value="0">--select--</option>      
+			            <option value="1">1</option>    
+			            <option value="2">2</option>    
+			            <option value="3" >3</option>
+			            <option value="4">4</option>    
+			            <option value="5" >5</option>   
+			            <option value="6">6</option>    
+			            <option value="7" >7</option>   
+			            <option value="8">8</option>    
+			            <option value="9" >9</option>   
+			            <option value="10">10</option>    
+			            <option value="11" >11</option> 
+			            <option value="12" >12</option>       
+			            <option value="13" >13</option>    
+			            <option value="14">14</option>    
+			            <option value="15" >15</option>
+			            <option value="16">16</option>    
+			            <option value="17" >17</option>   
+			            <option value="18">18</option>    
+			            <option value="19" >19</option>   
+			            <option value="20">20</option>    
+			            <option value="21" >21</option>   
+			            <option value="22">22</option>    
+			            <option value="23" >23</option> 
+			            <option value="24" >24</option>
+			            <option value="25">25</option>    
+			            <option value="26" >26</option>
+			            <option value="27">27</option>    
+			            <option value="28" >28</option>   
+			            <option value="29">29</option>    
+			            <option value="30" >30</option> 
+			            <option value="31" >31</option>             
+		            </select>&nbsp;&nbsp;
+		            <select class="selectbox"name="dobYear" id="dobyear">
+		                <option value="0">--select--</option>    
+			            <option value="2021">2021</option>    
+			            <option value="2020">2020</option>    
+			            <option value="2019" >2019</option>
+			            <option value="2018">2018</option>    
+			            <option value="2017" >2017</option>   
+			            <option value="2016">2016</option>    
+			            <option value="2015" >2015</option>   
+			            <option value="2014">2014</option>    
+			            <option value="2013" >2013</option>   
+			            <option value="2012">2012</option>    
+			            <option value="2011" >2011</option> 
+		            </select>
+		           </td>
+	             </tr>
+	             <tr>
+		             <td align="right"><label  class="label"> Gender&nbsp;<font class="mandatory">*</font></label></td>
+		             <td></td>   
+		             <td align="left">
+		                <input type="radio"  name="gender" id="genderMale" value="0" class="radio-button"/>
+						<label for="male">Male</label>
+						<input type="radio"  name="gender"  id="genderFemale" value="1" class="radio-button"/>
+						<label for="female">Female</label>
+					 </td>
+	             </tr>
+	             <tr>
+		             <td align="right"><label  class="label">Country&nbsp;<font class="mandatory">*</font></label></td>
+		             <td></td>   
+		             <td align="left">
+			             <select class="selectbox" id="country" name="country" style="width:60%;">  
+			              <option value="">--select--</option>  
+				             <option value="ind">India</option>    
+				             <option value="Aus">Australia</option>    
+				             <option value="sri" >SriLanka</option>
+				             <option value="us">USA</option> 
+			             </select> 
+		             </td>
+	             </tr>
+	             <tr>
+		             <td align="right"><label  class="label">Email&nbsp;<font class="mandatory">*</font></label></td>
+		             <td></td>   
+		             <td align="left"><input type="text" placeholder="example@gmail.com" name="email" id="email" class="textbox" /></td>
+	             </tr>
+	             <tr>
+		             <td align="right"><label  class="label">Phone Number&nbsp;<font class="mandatory">*</font></label></td>
+		             <td></td>   
+		             <td align="left"><input type="text" placeholder="+91 (#####)(#####)" name="phoneNumber" id="phoneNumber" class="textbox" maxlength="13"/></td>
+	             </tr>
+	             <tr>
+		             <td align="right"><label  class="label">Password&nbsp;<font class="mandatory">*</font></label></td>
+		             <td></td>   
+		             <td align="left"><input type="password" placeholder="enter your password" name="password" id="password" class="textbox" maxlength="20"/></td>
+	             </tr>
+	              <tr>
+		             <td align="right"><label  class="label">Confirm password&nbsp;<font class="mandatory">*</font></label></td>
+		             <td></td>   
+		             <td align="left"><input type="password" placeholder="Confirm your password" name="confirmPassword" id="confirmPassword" class="textbox" maxlength="20"/></td>
+	             </tr>
+	             <tr>
+					<td align="right"></td>
+					<td></td>   
+					<td align="left"><input type="checkbox" name="checkBox" value="0" id="checkBox" class="checkbox"/>&nbsp;&nbsp;I agree to the terms and conditions</td>
+			     </tr>
+		      </tbody>
+	</table>
+	<table class="button-table" >
+			<tr>
+			<td width="30%" align="left"></td>
+			<td width="10%"></td>
+			<td width="0%" align="left">
+			<input type="button" value="Save" name="save" id="save" class="button save" onclick="javascript:funform();"/>&nbsp;&nbsp;&nbsp;
+			<input type="button" value="Clear" name="clear" id="clear" class="button clear" onclick="javscript:clearform();"/></td>
+			</tr>
+	</table>
+<hr>
+<br/>
+<br/>
+<br/>
+<br/>
+</form>
+</body>
+</html>
+<script type="text/javascript">
+function funform()
+{
+	var firstName= trim(document.frmemployee.firstName.value);
+	document.frmemployee.firstName.value=firstName;
+	
+	var lastName=trim(document.frmemployee.lastName.value);
+	var dobDate=document.frmemployee.dobDate.value;
+	var dobMonth=document.frmemployee.dobMonth.value;
+	var dobYear=document.frmemployee.dobYear.value;
+	var gendermale=document.getElementById("genderMale").checked;
+	var genderfemale=document.getElementById("genderFemale").checked;
+	var country=document.frmemployee.country.value;
+	var email=document.frmemployee.email.value;
+	var phoneNumber=document.frmemployee.phoneNumber.value;
+	var password=document.frmemployee.password.value;
+	var confirmPassword=document.frmemployee.confirmPassword.value;
+	var checkBox=document.frmemployee.checkBox.checked;
+	
+	if(firstName=="")
+		{
+		alert("Enter the First Name");
+		document.frmemployee.firstName.focus();
+		}
+	else if(lastName=="")
+		{
+		alert("Enter the Last Name");
+		document.frmemployee.lastName.focus();
+		}
+	else if((dobDate=="0")&&(dobMonth=="0")&&(dobYear=="0"))
+		{
+		alert("Enter the Date of Birth");
+		}
+	else if(gendermale==false && genderfemale==false)
+		{
+		alert("Enter the Gender");
+		}
+	else if(country=="")
+		{
+		alert("Enter the Country");
+		document.frmemployee.country.focus();
+		}
+	else if(email=="")
+		{
+		alert("Enter the Email");
+		document.frmemployee.email.focus();
+		}
+	else if(phoneNumber=="")
+		{
+		alert("Enter the Phone Number");
+		document.frmemployee.phoneNumber.focus();
+		}
+	else if(password=="")
+		{
+		alert("Enter the Password");
+		document.frmemployee.password.focus();
+		}
+	else if(confirmPassword=="")
+		{
+		alert("Enter the Confirm Password");
+		document.frmemployee.confirmPassword.focus();
+		}
+	else if(!
+			checkBox)
+		{
+		alert("Enter the checkbox");
+		}
+	else
+		{
+		alert("Saved Successfully");
+		}
+	}
+function clearform()
+{
+	document.getElementById("firstName").value="";
+	document.getElementById("lastName").value="";
+	document.getElementById("dobmonth").value="0";
+	document.getElementById("dobdate").value="0";
+	document.getElementById("dobyear").value="0";
+	document.getElementById("genderMale").checked=false;
+	document.getElementById("genderFemale").checked=false;
+	document.getElementById("country").value=0;
+	document.getElementById("email").value="";
+	document.getElementById("phoneNumber").value="";
+	document.getElementById("password").value="";
+	document.getElementById("confirmPassword").value="";
+	document.getElementById("checkBox").checked=false;
+	document.getElementById("genderMale").checked=false;
+	document.getElementById("genderFemale").checked=false;
+	document.getElementById("firstName").focus();
+	}
+function trim(stringTrim)
+{
+	return stringTrim.replace(/^\s+|\s+$/g,"");
+}
+</script>
